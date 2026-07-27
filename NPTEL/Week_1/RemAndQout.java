@@ -1,7 +1,9 @@
 // Find Remainder and Qoutient using user input
 import java.util.Scanner;
 
-Public class RanQ{
+public class RemAndQout
+{
+
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
         int x = sc.nextInt();

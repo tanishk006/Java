@@ -3,7 +3,7 @@
 import java.util.Scanner;
 
 
-public class W01_P2{
+public class AreaAndPerimeter {
     public static void main(String[] strings){
         double width;
         double height;

@@ -1,7 +1,8 @@
 // Check if the integer is odd or even
+package Week_1;
 import java.util.Scanner;
 
-public class W01_p1{
+public class EvenOrOdd{
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         int number = in.nextInt();
