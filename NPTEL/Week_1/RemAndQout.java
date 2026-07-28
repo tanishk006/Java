@@ -1,3 +1,5 @@
+package Week_1;
+
 // Find Remainder and Qoutient using user input
 import java.util.Scanner;
 

@@ -1,3 +1,5 @@
+package Week_1;
+
 // find the perimeter and area
 
 import java.util.Scanner;
