@@ -1,24 +1,25 @@
 package NPTEL.Week_3;
 
-// factorial of a number 
-
 import java.util.Scanner;
+class W03_P1 {
 
-public class factorial {
-   public static void main(String[] args)
-   {
-    int fact = 1;
-    Scanner sc = new Scanner (System.in);
-    System.out.print("Enter a number :");
-    int n = sc.nextInt();
-
-    for(int i = 1; i <= n ;i++)
+    public static int factorial(int x)
     {
-        fact = fact*i;
+        if(x == 0 || x == 1)
+        {
+            return 1;
+        }
+        else {
+            return factorial(x - 1) * x; // Fixed line
+        }
     }
 
-    System.out.println("Factorial is :" + fact);
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        int x;
+        x = in.nextInt();
+        System.out.println(factorial(x));
 
-    sc.close();
-   }    
+        in.close();
+    }
 }
