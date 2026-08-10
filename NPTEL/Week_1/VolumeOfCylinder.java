@@ -13,7 +13,7 @@ public class VolumeOfCylinder{
         // pi*r^2*h
 
 
-       double volume = Math.Pi * radius * radius * height ;
+       double volume = Math.PI * radius * radius * height ;
 
        System.out.printf("Volume is %.2f",  volume);
 

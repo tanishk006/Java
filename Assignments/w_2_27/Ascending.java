@@ -1,4 +1,7 @@
 // print the array in ascending order using sorting method
+
+package w_2_27;
+
 import java.util.Scanner;
 
 public class Ascending
