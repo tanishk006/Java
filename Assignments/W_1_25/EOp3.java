@@ -34,6 +34,8 @@ public class EOp3
         System.out.println("Even "+ Arrays.toString(evens));
         System.out.println("Odd "+ Arrays.toString(odds));
 
+
+        sc.close();
     }
 
 }
