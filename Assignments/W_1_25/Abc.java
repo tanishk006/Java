@@ -1,8 +1,8 @@
-package w_1_25;
+package W_1_25;
 
 import java.util.Scanner;
 
-class AbC 
+class Abc 
 {
     int result;
 
